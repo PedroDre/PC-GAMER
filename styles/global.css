@@ -1,0 +1,200 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Cores e botões */
+:root {
+    --primary: #0ff; /* Azul neon */
+    --secondary: #0a0a0a; /* Preto gamer */
+    --accent: #ff0066; /* Rosa neon */
+}
+
+/* Header e navegação */
+header {
+    background: linear-gradient(135deg, #292929, #292929);
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.header-logo {
+    margin: 10px 0;
+    width: 150px; 
+    height: 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+nav h1 {
+    color: var(--primary);
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: var(--accent);
+}
+
+.hero {
+    margin-top: 50px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background: var(--primary);
+    color: #292929;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: var(--accent);
+    color: white;
+}
+
+/* Seções */
+section {
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #292929;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.btn-card {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: var(--primary);
+    color: #292929;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.btn-card:hover {
+    background: var(--accent);
+    color: white;
+}
+
+/* Vantagens */
+.vantagens {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.vantagem {
+    background: #292929;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 250px;
+}
+
+/* Depoimentos */
+.depoimentos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.depoimento {
+    background: #292929;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 300px;
+    font-style: italic;
+}
+
+/* Contato */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    padding: 15px;
+    background: var(--primary);
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: var(--accent);
+    color: white;
+}
+
+/* Footer */
+footer {
+    background: #292929;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
