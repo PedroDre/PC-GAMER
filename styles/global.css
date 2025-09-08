@@ -7,9 +7,9 @@
 }
 
 :root {
-    --primary: rgb(166, 248, 248); /* Azul neon */
-    --secondary: #0a0a0a; /* Preto gamer */
-    --accent: #f86fa6; /* Rosa neon */
+    --primary: #a8f1f1;
+    --secondary: #0a0a0a; 
+    --accent: #f86fa6; 
 }
 
 .hero-header {
@@ -17,12 +17,12 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 25vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #ffffff;
     position: relative;
 }
 
@@ -34,7 +34,7 @@
 
 .hero-content h2 {
     font-size: 3rem;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .hero-content p {
@@ -46,7 +46,7 @@
     width: 150px;
     height: 150px;
     margin: 10px 0;
-    z-index: 2;
+    z-index: 3;
 }
 
 nav {
@@ -55,7 +55,7 @@ nav {
     align-items: center;
     padding: 20px 50px;
     width: 100%;
-    position: relative;
+    position: center;
     z-index: 2; 
 }
 
@@ -79,7 +79,6 @@ nav ul li a:hover {
     color: var(--accent);
 }
 
-/* Botão hero */
 .btn {
     background: var(--primary);
     color: #292929;
